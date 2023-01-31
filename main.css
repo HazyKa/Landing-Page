@@ -1,0 +1,113 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+.header {
+    font-size: 1.8em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #373a3d;
+    height: 80px;
+    padding: 0% 10%;
+    align-items: center;
+    background-color: #0c5149 #525f5e #96afac;
+    background: rgb(254,0,255);
+    background: linear-gradient(90deg, rgba(254,0,255,1) 8%, rgba(142,4,194,1) 47%, rgba(9,9,121,1) 100%);
+}
+
+
+.links{
+    display: flex;
+    width: 20em;
+    justify-content: space-around;
+}
+
+.redesSociais {
+    display: flex;
+    width: 20em;
+    justify-content: space-around;
+}
+
+.links a {
+    color: rgb(250, 246, 246);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.redesSociais a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    color: #690d85;
+}
+
+.redesSociais a:hover {
+    text-decoration: underline;
+    color: #d25ff5;
+}
+
+
+.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(229,1,255);
+    background: linear-gradient(163deg, rgba(229,1,255,1) 20%, rgba(0,20,254,1) 100%);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50em;
+    margin-bottom: 10em;
+    width: 80em;
+    word-break: break-word;
+    color: white;
+    color: black;
+}
+
+.nomeEmpresa {
+    font-size: 6em;
+}
+
+.texto {
+    font-size: 20px;
+    width: 80em;
+}
+
+.botao {
+    width: 25em;
+    height: 5em;
+    border-radius: 3em;
+    background-color: #850daa;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.botao:hover {
+    background-color: #d25ff5;
+    transition: 0.5s;
+    color: black;
+}
+
+.logo {
+    height: 55em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10em;
+}
